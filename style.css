@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    /* taken from bgjar web */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1011%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M162.35 60.04L170.78 60.04L170.78 68.47L162.35 68.47z' stroke='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M263.45 205.98L317.46 205.98L317.46 227.26L263.45 227.26z' stroke='rgba(41%2c 168%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1272.04 441.8 a38.88 38.88 0 1 0 77.76 0 a38.88 38.88 0 1 0 -77.76 0z' fill='rgba(41%2c 168%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M835.51 338.71L867.01 338.71L867.01 370.21L835.51 370.21z' fill='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1217.43 31.07 a17.93 17.93 0 1 0 35.86 0 a17.93 17.93 0 1 0 -35.86 0z' fill='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M824.17 452.16 a30.77 30.77 0 1 0 61.54 0 a30.77 30.77 0 1 0 -61.54 0z' fill='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M911.86 338.57a2.67 2.67 0 1 0 5.34-0.1z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M275.58 455.26L289.4 455.26L289.4 504.11L275.58 504.11z' stroke='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M625.21 553.93 a49.99 49.99 0 1 0 99.98 0 a49.99 49.99 0 1 0 -99.98 0z' fill='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M491.63 211.9 a25.93 25.93 0 1 0 51.86 0 a25.93 25.93 0 1 0 -51.86 0z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M352.68 109.42L401.3 109.42L401.3 116.02L352.68 116.02z' stroke='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M147.07 199.16 a18.73 18.73 0 1 0 37.46 0 a18.73 18.73 0 1 0 -37.46 0z' stroke='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M1289.85 88.38L1331.38 88.38L1331.38 131.59L1289.85 131.59z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M1282.85 60.42L1308.92 60.42L1308.92 96.07L1282.85 96.07z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M721.39 146.26L751.5 146.26L751.5 176.37L721.39 176.37z' fill='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1396.22 12.45a1.4 1.4 0 1 0-2.56 1.12z' fill='rgba(0%2c 50%2c 84%2c 1)'%3e%3c/path%3e%3cpath d='M1273.82 92.52L1309.76 92.52L1309.76 128.46L1273.82 128.46z' fill='rgba(41%2c 168%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M349.02 140.01L358.53 140.01L358.53 149.52L349.02 149.52z' fill='rgba(0%2c 50%2c 84%2c 1)'%3e%3c/path%3e%3cpath d='M1194.36 162.96L1195.86 162.96L1195.86 164.46L1194.36 164.46z' stroke='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1365.33 529.96L1413.12 529.96L1413.12 577.75L1365.33 577.75z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M185.13 51.95 a8.77 8.77 0 1 0 17.54 0 a8.77 8.77 0 1 0 -17.54 0z' stroke='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M588.35 342.58L601.73 342.58L601.73 361.45L588.35 361.45z' fill='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M780.58 155.11a52.43 52.43 0 1 0 73.85-74.44z' stroke='rgba(0%2c 50%2c 84%2c 1)'%3e%3c/path%3e%3cpath d='M933.58 140.99L975.45 140.99L975.45 182.86L933.58 182.86z' fill='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M231.14 51.7 a26.97 26.97 0 1 0 53.94 0 a26.97 26.97 0 1 0 -53.94 0z' stroke='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M533.47 117.61a16.79 16.79 0 1 0-26.89 20.1z' stroke='rgba(41%2c 168%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M453.68 410.37a33.77 33.77 0 1 0-30.31 60.36z' stroke='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M122.69 495.67L175.72 495.67L175.72 527.26L122.69 527.26z' stroke='rgba(0%2c 50%2c 84%2c 1)'%3e%3c/path%3e%3cpath d='M1314.47 392.78L1333.36 392.78L1333.36 411.67L1314.47 411.67z' stroke='rgba(0%2c 50%2c 84%2c 1)'%3e%3c/path%3e%3cpath d='M85.31 218.77 a39.96 39.96 0 1 0 79.92 0 a39.96 39.96 0 1 0 -79.92 0z' fill='rgba(0%2c 93%2c 178%2c 1)'%3e%3c/path%3e%3cpath d='M1389.38 548.47 a13.92 13.92 0 1 0 27.84 0 a13.92 13.92 0 1 0 -27.84 0z' fill='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1171.62 16.35L1198.89 16.35L1198.89 65.47L1171.62 65.47z' fill='rgba(16%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M591.2 219.13a26.33 26.33 0 1 0 22.02 47.83z' fill='rgba(51%2c 157%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1011'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(167deg, #F7F8FB -5.94%, rgba(247, 248, 251, 0.19) 103.62%);
+    backdrop-filter: blur(20px);
+}
+
+.calc button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(130deg, rgba(255, 255, 255, 0.90) -9.69%, rgba(255, 255, 255, 0.40) 114.23%);
+    backdrop-filter: blur(10px);
+    background:transparent;
+    margin: 7px;
+    cursor: pointer;
+    &:hover{
+        color: aliceblue;
+        background-color: #29A8FF;
+    }
+}
+
+.calc #display{
+    border: 0;
+    outline: 0;
+    width: 19vw;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+    background: linear-gradient(130deg, rgba(255, 255, 255, 0.90) -9.69%, rgba(255, 255, 255, 0.40) 114.23%);
+    backdrop-filter: blur(10px);
+    background:transparent;
+    margin: 7px;
+    font-size: 2rem;
+    text-align: end;
+    padding-right: 10px;
+    
+    &:hover{
+        color: aliceblue;
+        background-color: #29A8FF;
+    }
+}
+
+button.spbtn{
+    color: #29A8FF;
+}
+ .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.calc .display #display{
+    color: #005DB2;
+    &:hover{
+        background-color: white;
+    }
+}
+
+.display button{
+    font-size: 30px ;
+    text-align: right;
+    padding-right: 10px;
+    flex: 1;
+}
+
+button.lrgbtn{
+    width: 140px;
+}
+
+button.operator{
+    color: #005DB2;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(204deg, #ADD8FF -8.99%, rgba(173, 216, 255, 0.28) 111.42%);
+}
+
+
+
